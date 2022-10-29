@@ -1,9 +1,18 @@
-const COLORS = ['red', 'black', 'white', 'blue'];
+const COLORS = ['red', 'black', 'white', 'blue', 'pink', 'brown'];
 const button = document.querySelector('#btn');
+const list = document.querySelector('#list');
 
 if (!webkitSpeechRecognition || webkitSpeechRecognition === undefined) {
   alert('Your browser not supports voice recognition!');
 }
+
+COLORS.forEach(color => {
+  const node = document.createElement('li');
+  node.innerHTML = color;
+  
+  list.append(node);
+
+})
 
 function defineRecognition() {
   const recognition = new webkitSpeechRecognition();

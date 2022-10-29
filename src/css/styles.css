@@ -20,6 +20,10 @@ main {
   place-items: center;
 }
 
+h1 {
+  margin-bottom: .7rem;
+}
+
 .button {
   width: 180px;
   height: 45px;
@@ -37,4 +41,19 @@ main {
 .button:hover {
   background-color: transparent;
   color: #5888f0;
+}
+
+span {
+  font-weight: bold;
+}
+
+.color-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 1rem 0;
+}
+.color-list li {
+  margin: 0 .5rem;
 }
