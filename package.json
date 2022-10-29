@@ -1,0 +1,12 @@
+{
+  "name": "speeach-recognition-javascript",
+  "version": "1.0.0",
+  "description": "A example of a speech recognition with JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["JavaScript", "speech-recognition", "web-api","html"],
+  "author": "laindomJS",
+  "license": "ISC"
+}
