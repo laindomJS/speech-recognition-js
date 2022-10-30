@@ -32,7 +32,7 @@ function defineRecognition() {
   recognition.onspeechend = () => recognition.stop();
   recognition.onnomatch = () => alert('No color recognised');
   recognition.onerror = (evt) => {
-    console.log(`Error occurred in recognition ${evt.error}`);
+    alert(`Error occurred in recognition ${evt.error}`);
   }
 }
 
